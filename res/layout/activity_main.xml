@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcg"
+    tools:context=".MainActivity" >
+    <Button
+        android:id="@+id/BtnSlide"
+        android:layout_width="75dp"
+        android:layout_height="75dp" 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/settingsicon" />
+
+    <Button
+        android:id="@+id/about"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="75dp"
+        android:layout_height="75dp" 
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/BtnSlide"
+        android:background="@drawable/help"/>
+
+    <Button
+        android:id="@+id/where"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+       
+        android:layout_marginBottom="33dp"
+        android:background="@drawable/where" />
+
+    <Button
+        android:id="@+id/on"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignLeft="@+id/off"
+        android:layout_below="@+id/BtnSlide"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/on"
+        android:minHeight="45dip"
+        android:minWidth="25dip" />
+
+    <Button
+        android:id="@+id/off"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/where"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/off" />
+    
+
+   
+</RelativeLayout>
